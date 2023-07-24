@@ -1,0 +1,31 @@
+name: deeplearning
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - graphviz
+  - python-graphviz
+  - ipykernel
+  - keras
+  - numpy=1.16.6
+  - pip
+  - scipy
+  - tqdm
+  - pyopengl-accelerate
+  - pytorch
+  - torchvision
+  - opencv
+  - pip:
+    - atari-py
+    - sklearn
+    - matplotlib
+    - seaborn
+    - scikit-image
+    - imageio
+    - pyglet
+    - psutil
+    - gym
+    - gym[box2d]
+    - gym[atari]
+    - requests
+    - editdistance
